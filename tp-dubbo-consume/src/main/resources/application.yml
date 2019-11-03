@@ -1,0 +1,26 @@
+dubbo:
+  application:
+    id: tp-dubbo-consumer
+    name: tp-dubbo-consumer
+  registry:
+    id: tp-dubbo-consumer
+    address: nacos://127.0.0.1:8848
+  protocol:
+    name: dubbo
+    port: 22231
+  scan:
+    base-packages: org.thinkstop.service
+demo:
+  service:
+    version: 1.0.5
+    name: tp-consumer
+server:
+  port: 9098
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      eager: true
+  application:
+    name: dubbo-nacos-consumer
