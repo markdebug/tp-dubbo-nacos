@@ -29,7 +29,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <dubbo.spring.version>0.2.0</dubbo.spring.version>
-        <dubbo.version>2.6.5</dubbo.version>
+        <dubbo.version>2.6.9</dubbo.version>
         <dubbo.nacos.version>2.6.7</dubbo.nacos.version>
         <netty.version>4.1.42.Final</netty.version>
         <dubbo.spring.content>1.0.2</dubbo.spring.content>
